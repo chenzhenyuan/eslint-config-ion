@@ -2,10 +2,15 @@
   "name": "eslint-config-ion",
   "version": "0.0.3",
   "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node ./test/index.js",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern bad.* ."
+  },
   "license": "MIT",
   "author": {
     "name": "Jason Chen <jason@chenzhenyuan.com>"
   },
+
   "keywords": [
     "eslintconfig",
     "eslint",
