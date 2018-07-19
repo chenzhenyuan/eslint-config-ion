@@ -3,8 +3,7 @@
   "version": "0.0.3",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && node ./test/index.js",
-    "lint": "eslint --ext .js,.jsx --ignore-pattern bad.* ."
+    "test": "node ./test/index.js"
   },
   "license": "MIT",
   "author": {
