@@ -1,9 +1,7 @@
 module.exports = {
-  plugins: ['import'],
+  plugins: [ 'import' ],
 
-  extends: [
-    'plugin:import/recommended',
-  ],
+  extends: [ 'plugin:import/recommended', ],
 
   rules: {
     'import/namespace': 'error',

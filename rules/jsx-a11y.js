@@ -1,10 +1,8 @@
 
 module.exports = {
-  plugins: ['jsx-a11y'],
+  plugins: [ 'jsx-a11y' ],
 
-  extends: [
-    'plugin:jsx-a11y/recommended',
-  ],
+  extends: [ 'plugin:jsx-a11y/recommended', ],
 
   rules: {
     'jsx-a11y/no-static-element-interactions': 'off',

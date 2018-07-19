@@ -15,21 +15,29 @@ fileList.forEach((file) => {
   path.extname(file).toLowerCase() === '.js' && rules.push(path.resolve(__dirname, RULE_DIR_PATH, file));
 });
 
-
-// rules.unshift('eslint:recommended');
-
 module.exports = {
   env: {
-    browser: true,
-    node: true,
+    browser : true,
+    node    : true,
+    commonjs: true,
+    es6     : true,
   },
 
+  root: true,
+
+  parser: 'babel-eslint',
+
   parserOptions: {
-    ecmaVersion: 7,
-    sourceType: "module",
+    ecmaVersion: 2017,
+    sourceType: 'module',
+
+    allowImportExportEverywhere: false,
+
+    codeFrame: false,
+
     ecmaFeatures: {
-      "jsx"    : true,
-      "modules": true,
+      jsx    : true,
+      modules: true,
     }
   },
 

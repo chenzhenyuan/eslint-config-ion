@@ -8,7 +8,7 @@ module.exports = {
 
   rules: {
     // 要求箭头函数体使用大括号
-    "arrow-body-style": ["error", "as-needed"],
+    'arrow-body-style': [ 'error', 'as-needed' ],
 
     'import/no-extraneous-dependencies': 'off',
 

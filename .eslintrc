@@ -3,6 +3,9 @@ globals:
     require: true
     __dirname: true
 
+extends:
+    - ./index.js
+
 parserOptions:
     ecmaVersion: 7
     sourceType: "module"

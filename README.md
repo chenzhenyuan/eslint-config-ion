@@ -1,4 +1,4 @@
-# eslint-config-ion
+# eslint-config-ion [![Build Status](https://www.travis-ci.org/chenzhenyuan/eslint-config-ion.svg?branch=master)](https://www.travis-ci.org/chenzhenyuan/eslint-config-ion)
 ESLint Config for the Ion JavaScript style guide
 ## Installation
 ---
