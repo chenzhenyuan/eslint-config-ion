@@ -2,13 +2,8 @@
   "name": "eslint-config-ion",
   "version": "0.0.3",
   "main": "index.js",
-  "scripts": {
-    "test": "node ./test/index.js"
-  },
   "license": "MIT",
-  "author": {
-    "name": "Jason Chen <jason@chenzhenyuan.com>"
-  },
+  "author": "Jason Chen <jason@chenzhenyuan.com>",
 
   "keywords": [
     "eslintconfig",
@@ -19,7 +14,7 @@
     "styleguide"
   ],
   "engines": {
-    "node": ">= 4"
+    "node": ">= 8"
   },
   "dependencies": {
     "babel-eslint": "^8.2.6",
