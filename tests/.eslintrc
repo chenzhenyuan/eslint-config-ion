@@ -1,0 +1,18 @@
+# globals:
+#   module: true
+#   require: true
+#   __dirname: true
+
+root: true
+
+plugins:
+  - react
+
+extends:
+  - ../index.js
+
+rules:
+  # 缩进风格
+  indent:
+    - error
+    - 2

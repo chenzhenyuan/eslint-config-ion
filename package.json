@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-ion",
+  "version": "0.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Jason Chen <jason@chenzhenyuan.com>"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "config",
+    "ion",
+    "javascript",
+    "styleguide"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "eslint": "^5.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
