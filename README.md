@@ -1,6 +1,9 @@
 # eslint-config-ion
 
 ![Build Status](https://www.travis-ci.org/chenzhenyuan/eslint-config-ion.svg?branch=master)  ![Release Version](https://img.shields.io/github/release/chenzhenyuan/eslint-config-ion.svg)
+![Build Status](https://img.shields.io/npm/dw/localeval.svg)
+![Build Status](https://img.shields.io/npm/v/npm.svg)
+![Build Status](https://img.shields.io/npm/l/express.svg)
 
 ESLint Config for the Ion JavaScript style guide
 ## Installation
