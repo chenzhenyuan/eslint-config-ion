@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Jason Chen <jason@chenzhenyuan.com>",
-
+  "scripts": {
+    "test": "echo \"Complete: no test specified\" && exit 0"
+  },
   "keywords": [
     "eslintconfig",
     "eslint",
