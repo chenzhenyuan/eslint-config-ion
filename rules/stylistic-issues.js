@@ -20,19 +20,10 @@ module.exports = {
     'quotes': [ 'error', 'single' ],
 
     // 在数组开括号后和闭括号前强制换行
-    'array-bracket-newline': [
-'error', {
-      multiline: true,
-      minItems: 4
-    }
-],
+    'array-bracket-newline': [ 'error', 'consistent' ],
 
     // 禁止或强制在括号内使用空格
-    'array-bracket-spacing': [
-'error', 'always', {
-      objectsInArrays: false
-    }
-],
+    'array-bracket-spacing': [ 'error', 'always', { objectsInArrays: false }],
 
     // 要求箭头函数体使用大括号
     'arrow-body-style': [ 'error', 'as-needed' ],
@@ -44,11 +35,7 @@ module.exports = {
     'brace-style': [ 'error', 'stroustrup' ],
 
     // 禁止使用一元操作符 ++ 和 --
-    'no-plusplus': [
-'error', {
-      allowForLoopAfterthoughts: true
-    }
-],
+    'no-plusplus': [ 'error', { allowForLoopAfterthoughts: true}],
 
     // 要求或禁止在注释前有空白
     'spaced-comment': [ 'error', 'always' ],
@@ -63,15 +50,9 @@ module.exports = {
     'wrap-regex': 'error',
 
     // 要求方法链中每个调用都有一个换行符
-    'newline-per-chained-call': [ 'error', { ignoreChainWithDepth: 2 }],
+    'newline-per-chained-call': [ 'error', { ignoreChainWithDepth: 3 }],
 
     // 禁止出现多个空格, Import 例外
-    'no-multi-spaces': [
- 'error', {
-      exceptions: {
-        ImportDeclaration: true
-      }
-    }
-]
+    'no-multi-spaces': [ 2, { exceptions: { ImportDeclaration: true }}]
   }
 }
