@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ion",
-  "version": "0.0.4",
-  "main": "index.js",
+  "version": "0.0.5",
+  "main": "./index.js",
   "license": "MIT",
   "author": "Jason Chen <jason@chenzhenyuan.com>",
   "scripts": {
